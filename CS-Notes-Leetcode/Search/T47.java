@@ -1,6 +1,6 @@
 
 // 2021.05.18
-// Leetcode 第46题
+// Leetcode 第47题
 // https://leetcode-cn.com/problems/permutations-ii/description/
 package Search;
 
