@@ -124,3 +124,9 @@
 1. Leetcode 第 231 题
 2. Leetcode 第 5 题
 3. Leetcode 第 97 题
+
+## 2021.05.31
+
+1. Leetcode 第 342 题
+2. Leetcode 第 3 题
+3. Leetcode 第 6 题
