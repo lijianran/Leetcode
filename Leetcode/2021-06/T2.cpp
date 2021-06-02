@@ -1,7 +1,7 @@
 
 // 2021.06.01
 // Leetcode 第 2 题
-// https://leetcode-cn.com/problems/add-two-numbers/submissions/
+// https://leetcode-cn.com/problems/add-two-numbers/
 
 #include <iostream>
 #include <vector>
