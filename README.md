@@ -21,3 +21,9 @@
 
 1. Leetcode 第 523 题
 2. Leetcode 第 15 题
+
+## 2021.06.03
+
+1. Leetcode 第 22 题
+2. Leetcode 第 23 题
+3. Leetcode 第 31 题
