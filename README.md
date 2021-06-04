@@ -9,7 +9,7 @@
 
 # 面试刷题日记
 
-    [LeetCode HOT 100](https://leetcode-cn.com/problem-list/2cktkvj/) 
+[LeetCode HOT 100](https://leetcode-cn.com/problem-list/2cktkvj/) 
 
 
 ## 2021.06.01
@@ -27,3 +27,9 @@
 1. Leetcode 第 22 题
 2. Leetcode 第 23 题
 3. Leetcode 第 31 题
+
+## 2021.06.04
+
+1. Leetcode 第 33 题
+2. Leetcode 第 48 题
+3. Leetcode 第 49 题
