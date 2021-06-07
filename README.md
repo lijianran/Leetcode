@@ -4,8 +4,7 @@
 
 - 剑指offer
 - CS-Notes Leetcode精选题
-
-
+- LeetCode HOT 100
 
 # 面试刷题日记
 
@@ -33,3 +32,10 @@
 1. Leetcode 第 33 题
 2. Leetcode 第 48 题
 3. Leetcode 第 49 题
+
+## 2021.06.07
+
+1. Leetcode 第 55 题
+2. Leetcode 第 56 题
+3. Leetcode 第 96 题
+4. Leetcode 第 98 题
