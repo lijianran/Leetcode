@@ -51,3 +51,7 @@
 2. Leetcode 第 128 题
 3. Leetcode 第 136 题
 4. Leetcode 第 139 题
+
+## 2021.06.11
+
+1. Leetcode 第 142 题
