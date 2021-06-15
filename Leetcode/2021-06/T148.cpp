@@ -1,5 +1,5 @@
 
-// 2021.06.11
+// 2021.06.15
 // Leetcode 第 148 题
 // https://leetcode-cn.com/problems/sort-list/
 /*
@@ -85,10 +85,52 @@ public:
         if (!head || !head->next)
             return head;
         int length = 0;
-        while(head->next)
+        ListNode *node = head;
+        while (node)
         {
-            
+            ++length;
+            node = node->next;
         }
+
+        ListNode *dummyHead = new ListNode(0, head);
+
+        for (int subLength = 1; subLength < length; subLength <<= 1)
+        {
+            ListNode *pre = dummyHead;
+            ListNode *cur = dummyHead->next;
+            while (cur)
+            {
+                ListNode *head1 = cur;
+                for (int i = 1; i < subLength && cur->next; ++i)
+                {
+                    cur = cur->next;
+                }
+                ListNode *head2 = cur->next;
+                cur->next = nullptr;
+                cur = head2;
+
+                for (int i = 1; i < subLength && cur && cur->next; ++i)
+                {
+                    cur = cur->next;
+                }
+
+                ListNode *next = nullptr;
+                if (cur)
+                {
+                    next = cur->next;
+                    cur->next = nullptr;
+                }
+
+                ListNode *merged = merge(head1, head2);
+                pre->next = merged;
+                while (pre->next)
+                {
+                    pre = pre->next;
+                }
+                cur = next;
+            }
+        }
+        return dummyHead->next;
     }
 
 protected:
