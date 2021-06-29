@@ -63,7 +63,7 @@ public:
 
 // DP O(m*n)
 // dp(i,j) = min(dp(i−1,j),dp(i−1,j−1),dp(i,j−1)) + 1
-class Solution
+class Solution1
 {
 public:
     int maximalSquare(vector<vector<char>> &matrix)
